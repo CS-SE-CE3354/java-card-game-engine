@@ -1,4 +1,4 @@
-/***********************************************************************//**
+/* **************************************************************************
  * @file		WelcomeGUI.java
  * @author		Kurt E. Clothier
  * @date		December 17, 2015
@@ -11,7 +11,7 @@
  * @see			http://www.projectsbykec.com/
  * 
  * @copyright	The MIT License (MIT) - see LICENSE.txt
- ***************************************************************************/
+ * **************************************************************************/
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -70,7 +70,7 @@ public final class CardGameDriver implements ActionListener {
 	/**
 	 * Run this <tt>CardGameDriver</tt>.
 	 * 
-	 * @param args
+	 * @param args unused
 	 */
 	public static void main(String[] args) {
 		final CardGameDriver driver = new CardGameDriver();
